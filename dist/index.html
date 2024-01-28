@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en" class="relative scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <title>Javier Murillo | Ingeniero de Software</title>
+    <meta content="Saas Landing page" name="description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Theme favicon -->
+    <link rel="shortcut icon" href="/assets/favicon-crsEsiPV.ico" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+    <script src="
+      https://cdn.jsdelivr.net/npm/card3d@2.6.5/dist/card3d.min.js
+    "></script>
+    <script type="module" crossorigin src="/assets/index-E_RX4mNB.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-EGwKz-fd.css">
+  </head>
+
+  <body
+    class="overflow-x-hidden bg-base-100 font-body text-sm text-base-content antialiased"
+  >
+    <div
+      id="navbar-wrapper"
+      class="sticky top-0 z-10 border-b bg-base-100 lg:bg-opacity-95 lg:backdrop-blur-sm"
+      x-data="{ atTop: false }"
+      :class="{ 'border-base-content/10': atTop, 'border-transparent': !atTop}"
+      @scroll.window="atTop = (window.pageYOffset < 30) ? false: true">
+      <div class="container">
+        <nav class="navbar px-0">
+          <div class="navbar-start gap-2">
+            <div class="flex-none lg:hidden">
+              <label for="my-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost">
+                <i class="icon-menu inline-block text-xl"></i>
+              </label>
+            </div>
+    
+            <!-- Navbar Brand logo -->
+            <a href="#" class="text-xl font-bold tracking-tighter">Portafolio</a>
+          </div>
+    
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal menu-sm gap-2 px-1">
+              <li class="font-medium"><a href="#home">Home</a></li>
+              <li class="font-medium"><a href="#about">Sobre mi</a></li>
+              <li class="font-medium"><a href="#documents">Documentos</a></li>
+            </ul>
+          </div>
+    
+        </nav>
+    
+        <!-- sm screen menu (drawer) -->
+        <div class="drawer">
+          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-side">
+            <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+    
+            <ul class="menu min-h-full w-80 gap-2 bg-base-100 p-4 text-base-content">
+              <!-- Navbar Brand logo -->
+              <li class="font-medium">
+                <a href="index.html" class="text-xl font-bold">SaaS Landing</a>
+              </li>
+    
+              <li class="font-medium"><a href="#home">Home</a></li>
+              <li class="font-medium"><a href="#about">Sobre mi</a></li>
+              <li class="font-medium"><a href="#documents">Documentos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="py-8 lg:py-20" id="home">
+      <div class="container">
+        <div class="grid gap-12 lg:grid-cols-2">
+          <div class="flex items-center">
+            <h1
+              class="text-4xl font-black tracking-tighter lg:text-6xl lg:leading-none"
+            >
+              Ing. en Desarrollo de Software
+              <span class="text-primary">Javier Oskár Murillo</span>
+              .
+            </h1>
+          </div>
+
+          <div class="flex justify-center">
+            <div
+              class="rounded-xl w-1/2 bg-gradient-to-r from-indigo-200 via-red-200 to-purple-300 p-3"
+              data-card3d=""
+              data-card3d-perspective="1000"
+              data-card3d-full-page-listening="true"
+            >
+              <img
+                alt="SaaS"
+                class="rounded-xl"
+                src="/assets/JavierMurilloImage-k-4Giqw8.jpeg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-12 grid grid-cols-2 justify-center gap-4 sm:grid-cols-3 md:grid-cols-6"
+        >
+          <svg
+            class="mx-auto hidden cursor-pointer grayscale transition-all duration-500 hover:grayscale-0 sm:inline"
+            width="70px"
+            height="70px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polygon
+              points="5.902 27.201 3.655 2 28.345 2 26.095 27.197 15.985 30 5.902 27.201"
+              style="fill: rgb(228, 79, 38)"
+            ></polygon>
+            <polygon
+              points="16 27.858 24.17 25.593 26.092 4.061 16 4.061 16 27.858"
+              style="fill: rgb(241, 102, 42)"
+            ></polygon>
+            <polygon
+              points="16 13.407 11.91 13.407 11.628 10.242 16 10.242 16 7.151 15.989 7.151 8.25 7.151 8.324 7.981 9.083 16.498 16 16.498 16 13.407"
+              style="fill: rgb(235, 235, 235)"
+            ></polygon>
+            <polygon
+              points="16 21.434 15.986 21.438 12.544 20.509 12.324 18.044 10.651 18.044 9.221 18.044 9.654 22.896 15.986 24.654 16 24.65 16 21.434"
+              style="fill: rgb(235, 235, 235)"
+            ></polygon>
+            <polygon
+              points="15.989 13.407 15.989 16.498 19.795 16.498 19.437 20.507 15.989 21.437 15.989 24.653 22.326 22.896 22.372 22.374 23.098 14.237 23.174 13.407 22.341 13.407 15.989 13.407"
+              style="fill: rgb(255, 255, 255)"
+            ></polygon>
+            <polygon
+              points="15.989 7.151 15.989 9.071 15.989 10.235 15.989 10.242 23.445 10.242 23.445 10.242 23.455 10.242 23.517 9.548 23.658 7.981 23.732 7.151 15.989 7.151"
+              style="fill: rgb(255, 255, 255)"
+            ></polygon>
+          </svg>
+          <svg
+            class="mx-auto hidden cursor-pointer grayscale transition-all duration-500 hover:grayscale-0 sm:inline"
+            width="70px"
+            height="70px"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="2" y="2" width="28" height="28" fill="#FFCA28"></rect>
+            <path
+              d="M19 25.2879L21.0615 23.9237C21.2231 24.4313 22.2462 25.6368 23.5385 25.6368C24.8308 25.6368 25.4308 24.931 25.4308 24.463C25.4308 23.1878 24.1112 22.7382 23.4774 22.5223C23.374 22.4871 23.289 22.4581 23.2308 22.4328C23.2009 22.4198 23.1558 22.4025 23.0979 22.3804C22.393 22.1111 19.7923 21.1175 19.7923 18.2373C19.7923 15.065 22.8538 14.7002 23.5462 14.7002C23.9991 14.7002 26.1769 14.7557 27.2615 16.7939L25.2615 18.1898C24.8231 17.3015 24.0946 17.0081 23.6462 17.0081C22.5385 17.0081 22.3077 17.8201 22.3077 18.1898C22.3077 19.227 23.5112 19.6919 24.5273 20.0844C24.7932 20.1871 25.0462 20.2848 25.2615 20.3866C26.3692 20.91 28 21.7666 28 24.463C28 25.8136 26.8672 28.0002 24.0154 28.0002C20.1846 28.0002 19.1692 25.7003 19 25.2879Z"
+              fill="#3E3E3E"
+            ></path>
+            <path
+              d="M9 25.5587L11.1487 24.1953C11.317 24.7026 11.9713 25.638 12.9205 25.638C13.8698 25.638 14.3557 24.663 14.3557 24.1953V15.0002H16.9982V24.1953C17.041 25.4636 16.3376 28.0002 13.2332 28.0002C10.379 28.0002 9.19242 26.3039 9 25.5587Z"
+              fill="#3E3E3E"
+            ></path>
+          </svg>
+          <svg
+            class="mx-auto hidden cursor-pointer grayscale transition-all duration-500 hover:grayscale-0 sm:inline"
+            width="70px"
+            height="70px"
+            viewBox="0 0 24 24"
+            fill="#7710f6"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.002 2.997H5.999A3.011 3.011 0 0 0 2.997 6v12.002a3.012 3.012 0 0 0 3.002 3.001h12.003a3.012 3.012 0 0 0 3.001-3.001V6a3.012 3.012 0 0 0-3.001-3.003zm-1.64 12.647c-.152.36-.389.68-.693.927a3.594 3.594 0 0 1-1.206.614c-.49.151-1.074.229-1.75.229H7.888V6.909h5.103c.943 0 1.7.213 2.267.646.569.436.854 1.082.854 1.958 0 .528-.13.983-.389 1.357-.259.373-.63.664-1.111.868v.034c.642.135 1.137.438 1.464.912.327.473.493 1.069.493 1.789 0 .405-.078.788-.225 1.147l.02.021v.003zm-2.084-2.589c-.309-.282-.739-.419-1.297-.419H9.737v3.276h3.253c.554 0 .991-.144 1.298-.435.308-.289.464-.701.464-1.229-.005-.518-.156-.919-.464-1.193h-.014.004zm-.451-2.119c.299-.251.444-.613.444-1.084 0-.526-.131-.902-.397-1.116-.264-.214-.646-.326-1.146-.326H9.727v2.898h3.001c.436.001.81-.127 1.099-.372z"
+            ></path>
+          </svg>
+          <svg
+            class="mx-auto hidden cursor-pointer grayscale transition-all duration-500 hover:grayscale-0 sm:inline"
+            width="70px"
+            height="70px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z"
+              style="fill: rgb(68, 168, 179)"
+            ></path>
+          </svg>
+          <svg
+            class="mx-auto hidden cursor-pointer grayscale transition-all duration-500 hover:grayscale-0 sm:inline"
+            aria-label="Github"
+            fill="#00000"
+            width="70px"
+            height="70px"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            data-name="Layer 1"
+          >
+            <path
+              d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"
+            ></path>
+          </svg>
+          <svg
+            class="mx-auto hidden cursor-pointer grayscale transition-all duration-500 hover:grayscale-0 sm:inline"
+            width="70px"
+            height="70px"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+          >
+            <path
+              fill="#1ABCFE"
+              d="M8.55 8c0-1.289 1.019-2.333 2.275-2.333C12.082 5.667 13.1 6.71 13.1 8c0 1.289-1.018 2.333-2.275 2.333C9.57 10.333 8.55 9.29 8.55 8z"
+            ></path>
+            <path
+              fill="#0ACF83"
+              d="M4 12.667c0-1.289 1.019-2.334 2.275-2.334H8.55v2.334C8.55 13.955 7.531 15 6.275 15S4 13.955 4 12.667z"
+            ></path>
+            <path
+              fill="#FF7262"
+              d="M8.55 1v4.667h2.275c1.257 0 2.275-1.045 2.275-2.334C13.1 2.045 12.082 1 10.825 1H8.55z"
+            ></path>
+            <path
+              fill="#F24E1E"
+              d="M4 3.333c0 1.289 1.019 2.334 2.275 2.334H8.55V1H6.275C5.019 1 4 2.045 4 3.333z"
+            ></path>
+            <path
+              fill="#A259FF"
+              d="M4 8c0 1.289 1.019 2.333 2.275 2.333H8.55V5.667H6.275C5.019 5.667 4 6.71 4 8z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative py-8 lg:py-20" id="about">
+      <div class="absolute start-[10%] z-0">
+        <div
+          class="pointer-events-none aspect-square w-60 rounded-full bg-gradient-to-r from-primary/10 via-violet-500/10 to-purple-500/10 blur-3xl [transform:translate3d(0,0,0)] lg:w-[600px]"
+        ></div>
+      </div>
+
+      <div class="container">
+        <div class="flex flex-col items-center">
+          <h2 class="inline text-4xl font-semibold">Sobre mi</h2>
+
+          <p class="mt-4 text-lg sm:text-center">
+            ¡Hola! Soy Ingeniero en desarrollo de software especializado en:
+          </p>
+        </div>
+        <div
+          class="relative z-[2] mt-8 grid gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-12"
+        >
+          <div
+            class="overflow-hidden rounded-lg bg-base-200 shadow-md transition-all hover:shadow-xl"
+          >
+            <img
+              alt="saas img"
+              class="overflow-hidden rounded-ss-lg"
+              src="/assets/16232074-Smart-House-UI-OLHTQY_v.png"
+            />
+          </div>
+
+          <div class="lg:mt-8">
+            <div class="badge badge-primary">Ingenieria de Software</div>
+            <h3 class="mt-2 text-3xl font-semibold">Project Manager</h3>
+            <p class="mt-2 text-base font-medium">
+              He sido autor de distintos proyectos de software en los cuales fui
+              el encargado de dirigirlos
+            </p>
+
+            <ul class="mt-4 list-inside list-disc text-base">
+              <li>SCRUM Master</li>
+              <li>Diagramas UML</li>
+              <li>Documentación de proyectos de software</li>
+              <li>Ciclos de vida del Software</li>
+              <li>Requerimientos & Especificaciones</li>
+              <li>Arquitecturas</li>
+              <li>Modelos de desarrollo de software</li>
+              <li>Líder de proyectos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-8 grid gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-12">
+          <div>
+            <div class="badge badge-primary">Programación</div>
+            <h3 class="mt-2 text-3xl font-semibold">Front End Developer</h3>
+            <p class="mt-2 text-base">
+              He trabajado en distintos proyectos mayormente de desarrollo web
+              con la universidad y en el área labolar, maneja las áreas de
+              diseño y distintas tecnologias.
+            </p>
+
+            <ul class="mt-4 list-inside list-disc text-base">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Less</li>
+              <li>SASS</li>
+              <li>SwiftUI</li>
+              <li>VUE 3</li>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
+              <li>Web Responsive Designs</li>
+            </ul>
+          </div>
+
+          <div class="order-first lg:order-last">
+            <div
+              class="overflow-hidden rounded-lg bg-base-200 shadow-md transition-all hover:shadow-xl"
+            >
+              <img
+                alt="saas img"
+                class="overflow-hidden rounded-ss-lg"
+                src="/assets/18580477-Skylight-Mobile-Property-Management-Dashboard-PF7H55iZ.png"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 grid gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-12">
+          <div
+            class="overflow-hidden rounded-lg bg-base-200 shadow-md transition-all hover:shadow-xl"
+          >
+            <img
+              alt="saas img"
+              class="overflow-hidden rounded-ss-lg"
+              src="/assets/18382537-WorkSpace-Work-Space-Booking-Apps-QfnUo2GQ.png"
+            />
+          </div>
+
+          <div class="lg:mt-8">
+            <div class="badge badge-primary">Formación</div>
+            <h3 class="mt-2 text-3xl font-semibold">Experiencia</h3>
+            <p class="mt-2 text-base">
+              Los lugares en donde me ha tocado desempeñar mis habilidades han sido:
+            </p>
+
+            <ul class="mt-4 list-inside list-disc text-base">
+              <li>Taller de Programación Web Universidad Autonoma de Baja California Sur(2 años)</li>
+              <li>LeadVenture (desde 2021 - actualidad)</li>
+              <li>uPlanner(Proyecto 6 meses)</li>
+              <li>APTIVA (Software propio desde 2023)</li>
+              <li>Estudiante de Ingenieria en Desarrollo de Software 2019-2023</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8 lg:py-20" id="documents">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="text-4xl font-semibold">Drive Curriculums & Cartas de recomendación</h2>
+        </div>
+        <div class="flex justify-center  mt-6">
+          <div
+            class="card cursor-pointer border border-base-content/10 p-6 transition-all hover:shadow"
+          >
+            <div class="flex items-center justify-between gap-4">
+              <div class="flex items-center gap-4">
+                <div
+                  class="flex h-16 w-16 items-center justify-center rounded-full bg-base-200"
+                >
+                  <img
+                    alt="google drive"
+                    class="h-8 w-8"
+                    src="data:image/svg+xml,%3csvg%20viewBox='0%200%2087.3%2078'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m6.6%2066.85%203.85%206.65c.8%201.4%201.95%202.5%203.3%203.3l13.75-23.8h-27.5c0%201.55.4%203.1%201.2%204.5z'%20fill='%230066da'/%3e%3cpath%20d='m43.65%2025-13.75-23.8c-1.35.8-2.5%201.9-3.3%203.3l-25.4%2044a9.06%209.06%200%200%200%20-1.2%204.5h27.5z'%20fill='%2300ac47'/%3e%3cpath%20d='m73.55%2076.8c1.35-.8%202.5-1.9%203.3-3.3l1.6-2.75%207.65-13.25c.8-1.4%201.2-2.95%201.2-4.5h-27.502l5.852%2011.5z'%20fill='%23ea4335'/%3e%3cpath%20d='m43.65%2025%2013.75-23.8c-1.35-.8-2.9-1.2-4.5-1.2h-18.5c-1.6%200-3.15.45-4.5%201.2z'%20fill='%2300832d'/%3e%3cpath%20d='m59.8%2053h-32.3l-13.75%2023.8c1.35.8%202.9%201.2%204.5%201.2h50.8c1.6%200%203.15-.45%204.5-1.2z'%20fill='%232684fc'/%3e%3cpath%20d='m73.4%2026.5-12.7-22c-.8-1.4-1.95-2.5-3.3-3.3l-13.75%2023.8%2016.15%2028h27.45c0-1.55-.4-3.1-1.2-4.5z'%20fill='%23ffba00'/%3e%3c/svg%3e"
+                  />
+                </div>
+                <h3 class="text-xl font-semibold">Google Drive</h3>
+              </div>
+              <a href="https://drive.google.com/drive/folders/1ssjDw93bU0jutK8q1jV9pP_WtpKs_QP3?usp=sharing" target="_blank" class="btn btn-circle" aria-label="Details">
+                <i class="icon-arrow-right text-2xl"></i>
+              </a>
+            </div>
+            <p class="mt-4 text-lg sm:text-center">
+              Aquí podrás encontrar mi CV actualizado tanto en Inglés como en Español junto con una carta de recomendación
+              emitida por la UABCS en el área de ingenieria de software
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-neutral text-neutral-content" data-theme="dark">
+  <div>
+    <div class="flex justify-center">
+      <form action="https://formsubmit.co/tezjavi@gmail.com" method="POST" class="md-12 border-t border-white/20 p-8 sm:p-10 md:px-16 xl:px-40 xl:py-16">
+        <div class="badge badge-ghost">Contactame</div>
+        <h2 class="mt-4 text-3xl font-medium">Deseas contactarme?</h2>
+        <div class="mt-4 space-y-2">
+          <div>
+            <div class="form-control w-full lg:max-w-xs">
+              <label class="label" for="name">
+                <span class="label-text">Nombre Completo</span>
+              </label>
+              <input
+                autocomplete="name"
+                id="name"
+                class="input input-bordered w-full lg:max-w-xs"
+                placeholder="Nombre Completo"
+                type="text"
+                pattern="^[a-zA-Z0-9_.-]*$"
+                minlength="1"
+                name="name"
+                required />
+            </div>
+          </div>
+          <div>
+            <div class="form-control w-full lg:max-w-xs">
+              <label class="label" for="email">
+                <span class="label-text">Email</span>
+              </label>
+              <input
+                autocomplete="email"
+                id="email"
+                class="input join-item input-bordered w-full lg:max-w-xs"
+                placeholder="name@site.com"
+                type="email"
+                name="email"
+                required />
+            </div>
+          </div>
+          <div>
+            <div class="form-control w-fulL lg:max-w-xs">
+              <label class="label" for="message">
+                <span class="label-text">Mensaje</span>
+              </label>
+              <input
+                id="message"
+                class="input join-item input-bordered w-full lg:max-w-xs"
+                placeholder="Escribe tu mensaje"
+                type="text"
+                name="Message"
+                required />
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 flex items-center gap-2">
+          <button class="btn btn-primary">Contactame</button>
+          <a href="tel:(613) 117-0683" class="btn btn-ghost inline-flex items-center gap-2">
+            <i class="icon-play text-xl"></i>
+            <span>Llamame o Enviar Whatsapp</span>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</footer>
+ <!-- Theme Toggle -->
+<div class="fixed bottom-5 end-5 z-10 flex flex-col items-center">
+  <div class="dropdown dropdown-end dropdown-top">
+    <div class="btn mt-2" role="button" tabindex="0">
+      Theme
+      <svg
+        class="inline-block h-2 w-2 rotate-180 fill-current opacity-60"
+        height="12px"
+        viewBox="0 0 2048 2048"
+        width="12px"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
+      </svg>
+    </div>
+    <ul
+      class="menu dropdown-content menu-xs z-[1] w-52 rounded-box bg-base-300 shadow-2xl"
+      tabindex="0">
+      <li>
+        <button data-set-theme="" data-act-class="active">
+          <i class="icon-airplay text-lg"></i>
+          System
+        </button>
+      </li>
+      <li>
+        <button data-set-theme="light" data-act-class="active">
+          <i class="icon-sun text-lg"></i>
+          Light
+        </button>
+      </li>
+      <li>
+        <button data-set-theme="dark" data-act-class="active">
+          <i class="icon-moon text-lg"></i>
+          Dark
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  </body>
+</html>
